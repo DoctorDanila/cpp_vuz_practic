@@ -183,11 +183,11 @@ void HomeDyn15() {
 	cout << checkNumWithoutTZerros(K, N);
 }
 
-int main() {
-	setlocale(LC_ALL, "Russian");
-	system("chcp 1251");
-	//BackRec10();
-	//HomeDyn4();
-	HomeDyn15();
-	return 0;
-}
+//int main() {
+//	setlocale(LC_ALL, "Russian");
+//	system("chcp 1251");
+//	//BackRec10();
+//	//HomeDyn4();
+//	HomeDyn15();
+//	return 0;
+//}

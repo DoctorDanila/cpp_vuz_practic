@@ -156,14 +156,16 @@ int evaluateExpression(const string& expression) {
 }
 
 void lab13_Recur22() {
-    string expression = "M(1,2,3)"; // Пример выражения
+    string expression = "M(11,21,3)"; // Пример выражения
     cout << "Значение выражения: " << evaluateExpression(expression) << endl;
 }
 
-int main() {
-    lab13_File13();
-    lab13_File36();
-    lab13_File55();
-    lab13_Recur22();
-    return  0;
-}
+//int main() {
+//    setlocale(LC_ALL, "Russian");
+//    system("chcp 1251");
+//    /*lab13_File13();
+//    lab13_File36();
+//    lab13_File55();*/
+//    lab13_Recur22();
+//    return  0;
+//}
